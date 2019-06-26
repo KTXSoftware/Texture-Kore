@@ -36,7 +36,7 @@ namespace {
 	}
 }
 
-int kore(int argc, char** argv) {
+int kickstart(int argc, char** argv) {
 	System::init("TextureTest", 1024, 768);
 	System::setCallback(update);
 
